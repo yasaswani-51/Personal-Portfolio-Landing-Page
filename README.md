@@ -2,7 +2,7 @@
 
 A responsive one-page portfolio for Doki Yasaswani, built with semantic HTML5, CSS Flexbox and Grid.
 
-**Live site:** https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+**Live site:** https://Doki Yasaswani.github.io/Personal-Portfolio-Landing-Page
 
 ## Structure
 
