@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Doki Yasaswani, a B.Tech Computer Science student building embedded systems and Python applications.">
+  <title>Doki Yasaswani - Computer Science Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <header>
+    <nav aria-label="Main">
+      <a class="brand" href="#about">Doki Yasaswani</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#background">Background</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="hero">
+      <div class="hero-text">
+        <p class="status"><span class="led" aria-hidden="true"></span>Open to internships</p>
+        <h1>Hi, I am Doki Yasaswani.</h1>
+        <p class="lead">I am a second-year B.Tech Computer Science student at Amrita Vishwa Vidyapeetham. I like turning small problems into working things, from a button that triggers an alarm to a route finder for ambulances.</p>
+        <p>I am looking for an internship where I can apply my problem-solving skills to real projects and keep learning.</p>
+        <p class="actions">
+          <a class="button" href="#projects">See my projects</a>
+          <a class="button ghost" href="#contact">Get in touch</a>
+        </p>
+      </div>
+      <img class="avatar" src="images/avatar.svg" width="240" height="240" alt="Monogram with the letters D and Y for Doki Yasaswani">
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="cards">
+        <li><h3>Python</h3><p>Algorithms, desktop apps with Tkinter, and my internship work at Cognifyz.</p></li>
+        <li><h3>Java and C</h3><p>Programming fundamentals and data structures coursework.</p></li>
+        <li><h3>HTML and CSS</h3><p>Semantic, responsive pages with Flexbox and Grid.</p></li>
+        <li><h3>JavaScript and React</h3><p>Interactive interfaces, with a React course from Scaler.</p></li>
+        <li><h3>Data Structures and DBMS</h3><p>Priority queues and graphs, plus database design with MySQL.</p></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="cards projects">
+        <li>
+          <img src="images/arduino-device.svg" width="400" height="220" alt="Diagram of an Arduino board with a push button, LED, buzzer and servo arm">
+          <h3>Arduino Emergency Assistive Device</h3>
+          <p class="meta">Embedded systems, September 2026</p>
+          <p>A low-cost local emergency alert built on an Arduino UNO with a push button, potentiometer, LED, buzzer and servo motor.</p>
+          <p>Hold the button for the selected time and the LED flashes, the buzzer sounds and the servo lifts a HELP flag to 90 degrees. The potentiometer sets the hold time between 1 and 5 seconds, and a short press is ignored to prevent accidental alerts.</p>
+          <p><a href="https://github.com/YOUR-USERNAME/ARDUINO-EMERGENCY-ASSISTIVE-DEVICE">View code on GitHub</a></p>
+        </li>
+        <li>
+          <img src="images/route-graph.svg" width="400" height="220" alt="Road network graph with the shortest route highlighted and one blocked road">
+          <h3>Emergency Route Optimization System</h3>
+          <p class="meta">Python, September 2026</p>
+          <p>A Python application that finds efficient routes for emergency vehicles using Dijkstra's algorithm and priority queues.</p>
+          <p>It accounts for traffic conditions, skips blocked roads and calculates alternative routes. The interface is built with Tkinter.</p>
+          <p><a href="https://github.com/YOUR-USERNAME/Emergency-Route-Optimization-System">View code on GitHub</a></p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="background">
+      <h2>Background</h2>
+      <div class="two-col">
+        <div>
+          <h3>Education</h3>
+          <dl>
+            <dt>B.Tech in Computer Science and Engineering</dt>
+            <dd>Amrita Vishwa Vidyapeetham, 2025 to 2029. CGPA 9.35 / 10.</dd>
+            <dt>12th Grade</dt>
+            <dd>Narayana Junior College, 2025. 94.5%.</dd>
+            <dt>10th Grade</dt>
+            <dd>Odisha Adarsha Vidyalaya, 2023. 88.2%.</dd>
+          </dl>
+        </div>
+        <div>
+          <h3>Certifications and activities</h3>
+          <ul class="plain">
+            <li>Python Development Intern, Cognifyz (2026)</li>
+            <li>React JS course, Scaler (2026)</li>
+            <li>EDGE NOVA '26 Hackathon, SRMIST (2026)</li>
+            <li>Smart India Hackathon, college-level participation (2025)</li>
+            <li>Member, Computer Society of India</li>
+          </ul>
+          <p class="meta">Languages: English, Telugu, Odia, Hindi</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>The quickest way to reach me is email. I am based in Gunupur, Odisha.</p>
+      <ul class="links">
+        <li><a href="mailto:yasaswani1328@gmail.com">yasaswani1328@gmail.com</a></li>
+        <li><a href="https://github.com/YOUR-USERNAME">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Doki Yasaswani. Built with HTML and CSS.</p>
+  </footer>
+</body>
+</html>
